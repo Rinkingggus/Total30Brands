@@ -570,10 +570,12 @@ Thread.sleep(3000);
 Thread.sleep(3000);
 driver.findElement(By.xpath("//*[@id=\"TPASection_jcfu7llo\"]/div/div/div/aside/section/ul/li[3]/div/div/div/ul/li[1]/label/span")).click();
 Thread.sleep(3000);
-//driver.findElement(By.xpath("//label/span[contains(text(),'86Duino')]")).click();
+
+
 //find all elements which has a className= "_2BULo" and put them in the data
 List<WebElement> Duino86BrandName = driver.findElements(By.className("_2BULo"));
 //create new Variable
+
 int numberOFDuino86BrandName = Duino86BrandName.size();
 String ActualDuino86BrandName1 = Duino86BrandName.get(0).getText();
 
