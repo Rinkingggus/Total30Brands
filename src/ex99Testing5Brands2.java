@@ -105,21 +105,21 @@ public class ex99Testing5Brands2 {
 		String expectedOrangePiName14 = "Orange Pi 3G-IOT";
 		String expectedOrangePiName15 = "Orange Pi 2G-IOT";
 
-		String expectedOrangePiPrice1 = "$8.50";
-		String expectedOrangePiPrice2 = "$36.90";
-		String expectedOrangePiPrice3 = "$109.00";
-		String expectedOrangePiPrice4 = "$13.90";
-		String expectedOrangePiPrice5 = "$35.90";
-		String expectedOrangePiPrice6 = "$49.00";
-		String expectedOrangePiPrice7 = "$20.00";
-		String expectedOrangePiPrice8 = "$15.00";
-		String expectedOrangePiPrice9 = "$20.00";
-		String expectedOrangePiPrice10 = "$25.00";
-		String expectedOrangePiPrice11 = "$12.00";
-		String expectedOrangePiPrice12 = "$8.80";
-		String expectedOrangePiPrice13 = "$45.00";
-		String expectedOrangePiPrice14 = "$24.90";
-		String expectedOrangePiPrice15 = "$9.90";
+		String expectedOrangePiPrice1 = "$8.50"; // SPEC
+		String expectedOrangePiPrice2 = "$36.90";// SPEC
+		String expectedOrangePiPrice3 = "$109.00";// SPEC
+		String expectedOrangePiPrice4 = "$13.90";// SPEC
+		String expectedOrangePiPrice5 = "$35.90";// SPEC
+		String expectedOrangePiPrice6 = "$49.00";// SPEC
+		String expectedOrangePiPrice7 = "$20.00";// SPEC
+		String expectedOrangePiPrice8 = "$15.00";// SPEC
+		String expectedOrangePiPrice9 = "$20.00";// SPEC
+		String expectedOrangePiPrice10 = "$25.00";// SPEC
+		String expectedOrangePiPrice11 = "$12.00";// SPEC
+		String expectedOrangePiPrice12 = "$8.80";// SPEC
+		String expectedOrangePiPrice13 = "$45.00";// SPEC
+		String expectedOrangePiPrice14 = "$24.90";// SPEC
+		String expectedOrangePiPrice15 = "$9.90";// SPEC
 
 		// Compares Expected to Actual 1.
 
@@ -656,10 +656,10 @@ public class ex99Testing5Brands2 {
 		String expectedRaspberryPiName3 = "Raspberry Pi Zero W / Zero WH";
 		String expectedRaspberryPiName4 = "Raspberry Pi Zero";
 
-		String expectedRaspberryPiPrice1 = "$30.00";
-		String expectedRaspberryPiPrice2 = "$30.00";
-		String expectedRaspberryPiPrice3 = "$10.00";
-		String expectedRaspberryPiPrice4 = "$5.00";
+		String expectedRaspberryPiPrice1 = "$28.5";// SPEC
+		String expectedRaspberryPiPrice2 = "$30.00";// SPEC
+		String expectedRaspberryPiPrice3 = "$28.50";// SPEC
+		String expectedRaspberryPiPrice4 = "$28.50";// SPEC
 
 		// Compares Expected to Actual Name1.
 
@@ -803,24 +803,16 @@ public class ex99Testing5Brands2 {
 
 		String actualPicoPiName1 = Pico.get(0).getText();
 		String actualPicoPiName2 = Pico.get(1).getText();
-		// String actualPicoPiName3 = Pico.get(2).getText();
-		// String actualPicoPiName4 = Pico.get(3).getText();
 
 		String actualPicoPiPrice1 = PicoPrice.get(0).getText();
 		String actualPicoPiPrice2 = PicoPrice.get(1).getText();
-		// String actualPicoPiPrice3 = PicoPrice.get(2).getText();
-		// String actualPicoPiPrice4 = PicoPrice.get(3).getText();
 
 		// add expected result
 		String expectedPicoPiName1 = "PICO-PI-IMX7";
 		String expectedPicoPiName2 = "PICO-PI-IMX6UL";
-		// String expectedPicoPiName3 = "Pico Zero W / Zero WH";
-		// String expectedPicoPiName4 = "Pico Zero";
 
-		String expectedPicoPiPrice1 = "$79.00";
-		String expectedPicoPiPrice2 = "$69.00";
-		// String expectedPicoPiPrice3 = "$10.00";
-		// String expectedPicoPiPrice4 = "$5.00";
+		String expectedPicoPiPrice1 = "$28.50";// SPEC
+		String expectedPicoPiPrice2 = "$699.00";// SPEC
 
 		// Compares Expected to Actual Name 1.
 
@@ -908,24 +900,16 @@ public class ex99Testing5Brands2 {
 
 		String actualPineName1 = Pine.get(0).getText();
 		String actualPineName2 = Pine.get(1).getText();
-		// String actualPineName3 = Pine.get(2).getText();
-		// String actualPineName4 = Pine.get(3).getText();
 
 		String actualPinePrice1 = PinePrice.get(0).getText();
 		String actualPinePrice2 = PinePrice.get(1).getText();
-		// String actualPinePrice3 = PinePrice.get(2).getText();
-		// String actualPinePrice4 = PinePrice.get(3).getText();
 
 		// add expected result
 		String expectedPineName1 = "Pine H64";
 		String expectedPineName2 = "Pine A64 / A64-LTS";
-		// String expectedPineName3 = "Pine Zero W / Zero WH";
-		// String expectedPineName4 = "Pine Zero";
 
-		String expectedPinePrice1 = "$26.00";
-		String expectedPinePrice2 = "$15.00";
-		// String expectedPinePrice3 = "$10.00";
-		// String expectedPinePrice4 = "$5.00";
+		String expectedPinePrice1 = "$26.00";// SPEC
+		String expectedPinePrice2 = "$15.00";// SPEC
 
 		// Compares Expected to Actual Name 1.
 
@@ -1017,24 +1001,16 @@ public class ex99Testing5Brands2 {
 
 		String actualPepperName1 = Pepper.get(0).getText();
 		String actualPepperName2 = Pepper.get(1).getText();
-		// String actualPepperName3 = Pepper.get(2).getText();
-		// String actualPepperName4 = Pepper.get(3).getText();
 
 		String actualPepperPrice1 = PepperPrice.get(0).getText();
 		String actualPepperPrice2 = PepperPrice.get(1).getText();
-		// String actualPepperPrice3 = PepperPrice.get(2).getText();
-		// String actualPepperPrice4 = PepperPrice.get(3).getText();
 
 		// add expected result
 		String expectedPepperName1 = "Pepper DVI-D";
 		String expectedPepperName2 = "Pepper 43R / 43C";
-		// String expectedPepperName3 = "Pepper Zero W / Zero WH";
-		// String expectedPepperName4 = "Pepper Zero";
 
-		String expectedPepperPrice1 = "$119.00";
-		String expectedPepperPrice2 = "$169.00";
-		// String expectedPepperPrice3 = "$10.00";
-		// String expectedPepperPrice4 = "$5.00";
+		String expectedPepperPrice1 = "$28.50";// SPEC
+		String expectedPepperPrice2 = "$169.00";// SPEC
 
 		// Compares Expected to Actual Name 1.
 
@@ -1124,25 +1100,13 @@ public class ex99Testing5Brands2 {
 		// place expected and actual Names into value into strings.
 
 		String actualParallellaName1 = Parallella.get(0).getText();
-		// String actualParallellaName2 = Parallella.get(1).getText();
-		// String actualParallellaName3 = Parallella.get(2).getText();
-		// String actualParallellaName4 = Parallella.get(3).getText();
 
 		String actualParallellaPrice1 = ParallellaPrice.get(0).getText();
-		// String actualParallellaPrice2 = ParallellaPrice.get(1).getText();
-		// String actualParallellaPrice3 = ParallellaPrice.get(2).getText();
-		// String actualParallellaPrice4 = ParallellaPrice.get(3).getText();
 
 		// add expected result
 		String expectedParallellaName1 = "Parallella";
-		// String expectedParallellaName2 = "Parallella 43R / 43C";
-		// String expectedParallellaName3 = "Parallella Zero W / Zero WH";
-		// String expectedParallellaName4 = "Parallella Zero";
 
-		String expectedParallellaPrice1 = "$128.00";
-		// String expectedParallellaPrice2 = "$169.00";
-		// String expectedParallellaPrice3 = "$10.00";
-		// String expectedParallellaPrice4 = "$5.00";
+		String expectedParallellaPrice1 = "$128.00"; // SPEC
 
 		// Compares Expected to Actual Name 1.
 
@@ -1220,10 +1184,10 @@ public class ex99Testing5Brands2 {
 		String expectedOLinuxinoName3 = "A20-OlinuXino-Micro";
 		String expectedOLinuxinoName4 = "A20-OlinuXino-Lime2";
 
-		String expectedOLinuXinoPrice1 = "$47.00";
-		String expectedOLinuXinoPrice2 = "$42.00";
-		String expectedOLinuXinoPrice3 = "$65.00";
-		String expectedOLinuXinoPrice4 = "$37.10";
+		String expectedOLinuXinoPrice1 = "$47.00";// SPEC
+		String expectedOLinuXinoPrice2 = "$42.00";// SPEC
+		String expectedOLinuXinoPrice3 = "$65.00";// SPEC
+		String expectedOLinuXinoPrice4 = "$37.10"; // SPEC SALE 53
 
 		// Compares Expected to Actual Price 1.
 
@@ -1403,11 +1367,11 @@ public class ex99Testing5Brands2 {
 		String expectedOdroidName4 = "Odroid-C1+";
 		String expectedOdroidName5 = "Odroid-C0";
 
-		String expectedOdroidPrice1 = "$59.00";
-		String expectedOdroidPrice2 = "$110.00";
-		String expectedOdroidPrice3 = "$39.00";
-		String expectedOdroidPrice4 = "$35.00";
-		String expectedOdroidPrice5 = "$29.80";
+		String expectedOdroidPrice1 = "$59.00"; // SPEC
+		String expectedOdroidPrice2 = "$110.00";// SPEC
+		String expectedOdroidPrice3 = "$46.00";// SPEC
+		String expectedOdroidPrice4 = "$35.00";// SPEC
+		String expectedOdroidPrice5 = "$29.80";// SPEC
 		// Compares Expected to Actual Price 1.
 
 		if (expectedOdroidPrice1.equals(actualOdroidPrice1)) {
@@ -1603,7 +1567,7 @@ public class ex99Testing5Brands2 {
 
 		String expectedOctavoName1 = "OSD3358-SM-RED";
 
-		String expectedOctavoPrice1 = "$199.00";
+		String expectedOctavoPrice1 = "$199.00"; // SPEC
 
 		// Compares Expected to Actual Price 1.
 
@@ -1718,21 +1682,21 @@ public class ex99Testing5Brands2 {
 		String expectedNanoPC14 = "NanoPC-T3 Plus";
 		String expectedNanoPC15 = "DE0-Nano-SoC Development Kit";
 
-		String expectedNanoPCPrice1 = "$42.00";
-		String expectedNanoPCPrice2 = "$28.50";
-		String expectedNanoPCPrice3 = "$28.50";
-		String expectedNanoPCPrice4 = "$44.00";
-		String expectedNanoPCPrice5 = "$28.00";
-		String expectedNanoPCPrice6 = "$19.00";
-		String expectedNanoPCPrice7 = "$12.00";
-		String expectedNanoPCPrice8 = "$35.00";
-		String expectedNanoPCPrice9 = "$38.00";
-		String expectedNanoPCPrice10 = "$39.00";
-		String expectedNanoPCPrice11 = "$35.00";
-		String expectedNanoPCPrice12 = "$8.00";
-		String expectedNanoPCPrice13 = "$20.00";
-		String expectedNanoPCPrice14 = "$75.00";
-		String expectedNanoPCPrice15 = "$99.00";
+		String expectedNanoPCPrice1 = "$42.00";// SPEC
+		String expectedNanoPCPrice2 = "$28.50";// SPEC
+		String expectedNanoPCPrice3 = "$28.50";// SPEC
+		String expectedNanoPCPrice4 = "$44.00";// SPEC
+		String expectedNanoPCPrice5 = "$28.00";// SPEC
+		String expectedNanoPCPrice6 = "$20.00";// SPEC
+		String expectedNanoPCPrice7 = "$12.00";// SPEC
+		String expectedNanoPCPrice8 = "$35.00";// SPEC
+		String expectedNanoPCPrice9 = "$38.00";// SPEC
+		String expectedNanoPCPrice10 = "$39.00";// SPEC
+		String expectedNanoPCPrice11 = "$35.00";// SPEC
+		String expectedNanoPCPrice12 = "$8.00";// SPEC
+		String expectedNanoPCPrice13 = "$20.00";// SPEC
+		String expectedNanoPCPrice14 = "$75.00";// SPEC
+		String expectedNanoPCPrice15 = "$99.00";// SPEC ???????
 
 		// Compares Expected to Actual Price 1.
 
@@ -2252,8 +2216,8 @@ public class ex99Testing5Brands2 {
 		String expectedMinnowBoard1 = "MinnowBoard Turbot Quad-Core / Dual-Ethernet Quad-Core";
 		String expectedMinnowBoard2 = "MinnowBoard Turbot Dual-Core / Dual-Ethernet Dual-Core";
 
-		String expectedMinnowBoardPrice1 = "$190.00";
-		String expectedMinnowBoardPrice2 = "$199.00";
+		String expectedMinnowBoardPrice1 = "$190.00";// SPEC
+		String expectedMinnowBoardPrice2 = "$146.00";// SPEC
 
 		// Compares Expected to Actual Price 1.
 
@@ -2353,19 +2317,11 @@ public class ex99Testing5Brands2 {
 		// place expected and actual Names into value into strings.
 
 		String actualMediaTek1 = MediaTek.get(0).getText();
-		// String actualMediaTek2 = MediaTek.get(1).getText();
-
 		String actualMediaTekPrice1 = MediaTekPrice.get(0).getText();
-		// String actualMediaTekPrice2 = MediaTekPrice.get(1).getText();
-
-		// add expected result
 
 		String expectedMediaTek1 = "MediaTek X20 Development Board";
-		// String expectedMediaTek2 = "MediaTek Turbot Dual-Core / Dual-Ethernet
-		// Dual-Core";
 
-		String expectedMediaTekPrice1 = "$199.00";
-		// String expectedMediaTekPrice2 = "$199.00";
+		String expectedMediaTekPrice1 = "$199.00";// SPEC
 
 		// Compares Expected to Actual Price 1.
 
@@ -2446,9 +2402,9 @@ public class ex99Testing5Brands2 {
 		String expectedLinkSprite2 = "LinkSprite Acadia V3";
 		String expectedLinkSprite3 = "LinkSprite Arches";
 
-		String expectedLinkSpritePrice1 = "$49.00";
-		String expectedLinkSpritePrice2 = "$119.00";
-		String expectedLinkSpritePrice3 = "$95.00";
+		String expectedLinkSpritePrice1 = "$49.00";// SPEC
+		String expectedLinkSpritePrice2 = "$119.00";// SPEC
+		String expectedLinkSpritePrice3 = "$95.00";// SPEC
 
 		// Compares Expected to Actual Price 1.
 
@@ -2586,7 +2542,7 @@ public class ex99Testing5Brands2 {
 
 		String expectedLinklt1 = "LinkIt Smart 7688";
 
-		String expectedLinkltPrice1 = "$14.90";
+		String expectedLinkltPrice1 = "$14.90"; // SPEC
 
 		// Compares Expected to Actual Price 1.
 
@@ -2635,19 +2591,10 @@ public class ex99Testing5Brands2 {
 				.click();
 		Thread.sleep(2000);
 
-		System.out.println("******************************************************************************LINKLT");
-		// Load more
-		// driver.findElement(By.xpath("//*[@id=\"TPASection_jcfu7llo\"]/div/div/div/div/section/div/button")).click();
-
-		Thread.sleep(4000);
+		System.out.println("******************************************************************************LIBRE");
 
 		// Find all elements with class named "_2BULo" and put them in a list.
 		List<WebElement> Libre = driver.findElements(By.className("_2BULo"));
-
-		// System.out.println("Libre all-products quantity " +
-		// (Libre.size()));
-
-		// Thread.sleep(2500);
 
 		// Find all elements with class named "_2BULo" and put them in a list.
 		List<WebElement> LibrePrice = driver.findElements(By.className("_23ArP"));
@@ -2655,22 +2602,14 @@ public class ex99Testing5Brands2 {
 		// place expected and actual Names into value into strings.
 
 		String actualLibre1 = Libre.get(0).getText();
-		// String actualLibre2 = Libre.get(1).getText();
-		// String actualLibre3 = Libre.get(2).getText();
 
 		String actualLibrePrice1 = LibrePrice.get(0).getText();
-		// String actualLibrePrice2 = LibrePrice.get(1).getText();
-		// String actualLibrePrice3 = LibrePrice.get(2).getText();
 
 		// add expected result
 
 		String expectedLibre1 = "Libre Computer Board (Le Potato)";
-		// String expectedLibre2 = "Libre Acadia V3";
-		// String expectedLibre3 = "Libre Arches";
 
-		String expectedLibrePrice1 = "$35.00";
-		// String expectedLibrePrice2 = "$119.00";
-		// String expectedLibrePrice3 = "$95.00";
+		String expectedLibrePrice1 = "$35.00"; // SPEC
 
 		// Compares Expected to Actual Price 1.
 
@@ -2709,9 +2648,786 @@ public class ex99Testing5Brands2 {
 		driver.findElement(By.xpath(
 				"//*[@id=\"TPASection_jcfu7llo\"]/div/div/div/aside/section/ul/li[3]/div/div/div/ul/li[16]/label/span"))
 				.click();
+		Thread.sleep(4500);
+//==========================================================================TANYA10BRANDS==================================================================
+
+		// *************************************************************DragonBoard***********************************************************************
+		// find DragonBoard Brand and click on it
+		String expectedDragonBoardName1 = "DragonBoard 820C";
+		String expectedDragonBoardPrice1 = "$199.00";
+
+		driver.findElement(By.xpath("//label/span[contains(text(),'DragonBoard')]")).click();
+		Thread.sleep(3000);
+		System.out.println("Checkbox Dragonboard Brand");
+		// find all elements which has a className= "_2BULo" and put them in the data
+		List<WebElement> DragonBoardBrandName = driver.findElements(By.className("_2BULo"));
+
+		String ActualDragonBoardBrandName1 = DragonBoardBrandName.get(0).getText();
+
+		// Print price of List Elements
+		List<WebElement> DragonBoardPrice = driver.findElements(By.className("_23ArP"));
+		String ActualDragonBoardPrice1 = DragonBoardPrice.get(0).getText();
+
+		System.out.println("***********************************");
+		System.out.println("check by brand DragonBoard");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualDragonBoardBrandName1);
+		if (expectedDragonBoardName1.equals(ActualDragonBoardBrandName1)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedDragonBoardName1);
+		System.out.println("Actual Result: " + ActualDragonBoardBrandName1);
+
+		System.out.println("***********************************");
+		System.out.println("check by price DragonBoard");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualDragonBoardBrandName1);
+		if (expectedDragonBoardPrice1.equals(ActualDragonBoardPrice1)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedDragonBoardPrice1);
+		System.out.println("Actual Result: " + ActualDragonBoardPrice1);
+		driver.findElement(By.xpath("//label/span[contains(text(),'DragonBoard')]")).click();
+		Thread.sleep(1000);
+		// *************************************************************DragonBoard***********************************************************************
+		// *************************************************************Chip
+		// Pro***********************************************************************
+		// find Chip_Pro Brand and click on it
+		String expectedChip_ProName1 = "Chip Pro Dev Kit";
+		String expectedChip_ProPrice1 = "$49.00";
+
+		driver.findElement(By.xpath("//label/span[contains(text(),'Chip Pro')]")).click();
+		Thread.sleep(3000);
+		// find all elements which has a className= "_2BULo" and put them in the data
+		List<WebElement> Chip_ProBrandName = driver.findElements(By.className("_2BULo"));
+		String ActualChip_ProBrandName1 = Chip_ProBrandName.get(0).getText();
+
+		// Print number of List Elements
+		List<WebElement> Chip_ProPrice = driver.findElements(By.className("_23ArP"));
+		String ActualChip_ProPrice1 = Chip_ProPrice.get(0).getText();
+
+		System.out.println("***********************************");
+		System.out.println("check by brand Chip Pro");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualChip_ProBrandName1);
+		if (expectedChip_ProName1.equals(ActualChip_ProBrandName1)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedChip_ProName1);
+		System.out.println("Actual Result: " + ActualChip_ProBrandName1);
+
+		System.out.println("***********************************");
+		System.out.println("check by price Chip Pro");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualChip_ProBrandName1);
+		if (expectedChip_ProPrice1.equals(ActualChip_ProPrice1)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedChip_ProPrice1);
+		System.out.println("Actual Result: " + ActualChip_ProPrice1);
+		driver.findElement(By.xpath("//label/span[contains(text(),'Chip Pro')]")).click();
+		Thread.sleep(1000);
+		// *************************************************************Chip
+		// Pro***********************************************************************
+		// *************************************************************CloudBit***********************************************************************
+		// find CloudBit Brand and click on it
+		String expectedCloudBitName1 = "CloudBit";
+		String expectedCloudBitPrice1 = "$60.00";
+
+		driver.findElement(By.xpath("//label/span[contains(text(),'CloudBit')]")).click();
+		Thread.sleep(3000);
+		// find all elements which has a className= "_2BULo" and put them in the data
+		List<WebElement> CloudBitBrandName = driver.findElements(By.className("_2BULo"));
+		String ActualCloudBitBrandName1 = CloudBitBrandName.get(0).getText();
+
+		// Print number of List Elements
+		List<WebElement> CloudBitPrice = driver.findElements(By.className("_23ArP"));
+		String ActualCloudBitPrice1 = CloudBitPrice.get(0).getText();
+
+		System.out.println("***********************************");
+		System.out.println("check by brand CloudBit");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualCloudBitBrandName1);
+		if (expectedCloudBitName1.equals(ActualCloudBitBrandName1)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedCloudBitName1);
+		System.out.println("Actual Result: " + ActualCloudBitBrandName1);
+
+		System.out.println("***********************************");
+		System.out.println("check by price CloudBit");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualCloudBitBrandName1);
+		if (expectedCloudBitPrice1.equals(ActualCloudBitPrice1)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedCloudBitPrice1);
+		System.out.println("Actual Result: " + ActualCloudBitPrice1);
+		driver.findElement(By.xpath("//label/span[contains(text(),'CloudBit')]")).click();
+		Thread.sleep(1000);
+		// *************************************************************CloudBit***********************************************************************
+		// *************************************************************Creator***********************************************************************
+		// find Creator Brand and click on it
+		String expectedCreatorName1 = "Creator Ci40";
+		String expectedCreatorPrice1 = "$85.00";
+
+		driver.findElement(By.xpath("//label/span[contains(text(),'Creator')]")).click();
+		Thread.sleep(3000);
+		// find all elements which has a className= "_2BULo" and put them in the data
+		List<WebElement> CreatorBrandName = driver.findElements(By.className("_2BULo"));
+		String ActualCreatorBrandName1 = CreatorBrandName.get(0).getText();
+
+		// Print number of List Elements
+		List<WebElement> CreatorPrice = driver.findElements(By.className("_23ArP"));
+		String ActualCreatorPrice1 = CreatorPrice.get(0).getText();
+
+		System.out.println("***********************************");
+		System.out.println("check by brand Creator");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualCreatorBrandName1);
+		if (expectedCreatorName1.equals(ActualCreatorBrandName1)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedCreatorName1);
+		System.out.println("Actual Result: " + ActualCreatorBrandName1);
+
+		System.out.println("***********************************");
+		System.out.println("check by price Creator");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualCreatorBrandName1);
+		if (expectedCreatorPrice1.equals(ActualCreatorPrice1)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedCreatorPrice1);
+		System.out.println("Actual Result: " + ActualCreatorPrice1);
+		driver.findElement(By.xpath("//label/span[contains(text(),'Creator')]")).click();
+		Thread.sleep(1000);
+		// *************************************************************Creator***********************************************************************
+		// *************************************************************Cubieboard***********************************************************************
+		// find Cubieboard Brand and click on it
+		String expectedCubieboardName1 = "CubieAIO-S700";
+		String expectedCubieboardName2 = "CubieBoard6 / CubieBoard7";
+		String expectedCubieboardName3 = "CubieAIO-A20";
+		String expectedCubieboardName4 = "CubieBoard4";
+		String expectedCubieboardName5 = "Cubieboard5 (CubieTruck-Plus)";
+		String expectedCubieboardPrice1 = "$139.00";
+		String expectedCubieboardPrice2 = "$79.00";
+		String expectedCubieboardPrice3 = "$83.00";
+		String expectedCubieboardPrice4 = "$119.00";
+		String expectedCubieboardPrice5 = "$99.00";
+
+		driver.findElement(By.xpath("//label/span[contains(text(),'Cubieboard')]")).click();
+		Thread.sleep(3000);
+		// find all elements which has a className= "_2BULo" and put them in the data
+		List<WebElement> CubieboardBrandName = driver.findElements(By.className("_2BULo"));
+
+		String ActualCubieboardBrandName1 = CubieboardBrandName.get(0).getText();
+		String ActualCubieboardBrandName2 = CubieboardBrandName.get(1).getText();
+		String ActualCubieboardBrandName3 = CubieboardBrandName.get(2).getText();
+		String ActualCubieboardBrandName4 = CubieboardBrandName.get(3).getText();
+		String ActualCubieboardBrandName5 = CubieboardBrandName.get(4).getText();
+
+		// Print number of List Elements
+		List<WebElement> CubieboardPrice = driver.findElements(By.className("_23ArP"));
+		String ActualCubieboardPrice1 = CubieboardPrice.get(0).getText();
+		String ActualCubieboardPrice2 = CubieboardPrice.get(1).getText();
+		String ActualCubieboardPrice3 = CubieboardPrice.get(2).getText();
+		String ActualCubieboardPrice4 = CubieboardPrice.get(3).getText();
+		String ActualCubieboardPrice5 = CubieboardPrice.get(4).getText();
+
+		System.out.println("***********************************");
+		System.out.println("check by brand Cubieboard");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualCubieboardBrandName1);
+		if (expectedCubieboardName1.equals(ActualCubieboardBrandName1)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedCubieboardName1);
+		System.out.println("Actual Result: " + ActualCubieboardBrandName1);
+
+		System.out.println("***********************************");
+		System.out.println("check by price Cubieboard");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualCubieboardBrandName1);
+		if (expectedCubieboardPrice1.equals(ActualCubieboardPrice1)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedCubieboardPrice1);
+		System.out.println("Actual Result: " + ActualCubieboardPrice1);
+
+		System.out.println("***********************************");
+		System.out.println("check by brand Cubieboard");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualCubieboardBrandName2);
+		if (expectedCubieboardName2.equals(ActualCubieboardBrandName2)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedCubieboardName2);
+		System.out.println("Actual Result: " + ActualCubieboardBrandName2);
+
+		System.out.println("***********************************");
+		System.out.println("check by price Cubieboard");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualCubieboardBrandName2);
+		if (expectedCubieboardPrice2.equals(ActualCubieboardPrice2)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedCubieboardPrice2);
+		System.out.println("Actual Result: " + ActualCubieboardPrice2);
+
+		System.out.println("***********************************");
+		System.out.println("check by brand Cubieboard");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualCubieboardBrandName3);
+		if (expectedCubieboardName3.equals(ActualCubieboardBrandName3)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedCubieboardName3);
+		System.out.println("Actual Result: " + ActualCubieboardBrandName3);
+
+		System.out.println("***********************************");
+		System.out.println("check by price Cubieboard");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualCubieboardBrandName3);
+		if (expectedCubieboardPrice3.equals(ActualCubieboardPrice3)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedCubieboardPrice3);
+		System.out.println("Actual Result: " + ActualCubieboardPrice3);
+
+		System.out.println("***********************************");
+		System.out.println("check by brand Cubieboard");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualCubieboardBrandName4);
+		if (expectedCubieboardName4.equals(ActualCubieboardBrandName4)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedCubieboardName4);
+		System.out.println("Actual Result: " + ActualCubieboardBrandName4);
+
+		System.out.println("***********************************");
+		System.out.println("check by price Cubieboard");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualCubieboardBrandName4);
+		if (expectedCubieboardPrice4.equals(ActualCubieboardPrice4)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedCubieboardPrice4);
+		System.out.println("Actual Result: " + ActualCubieboardPrice4);
+
+		System.out.println("***********************************");
+		System.out.println("check by brand Cubieboard");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualCubieboardBrandName5);
+		if (expectedCubieboardName5.equals(ActualCubieboardBrandName5)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedCubieboardName5);
+		System.out.println("Actual Result: " + ActualCubieboardBrandName5);
+
+		System.out.println("***********************************");
+		System.out.println("check by price Cubieboard");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualCubieboardBrandName5);
+		if (expectedCubieboardPrice5.equals(ActualCubieboardPrice5)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedCubieboardPrice5);
+		System.out.println("Actual Result: " + ActualCubieboardPrice5);
+
+		driver.findElement(By.xpath("//label/span[contains(text(),'Cubieboard')]")).click();
+		Thread.sleep(1000);
+
+		// *************************************************************Cubieboard***********************************************************************
+		// *************************************************************DE0-Nano-SoC***********************************************************************
+		// find DE0-Nano-SoC Brand and click on it
+		String expectedDE0_Nano_SoCName1 = "DE0-Nano-SoC Development Kit";
+		String expectedDE0_Nano_SoCPrice1 = "$99.00";
+
+		driver.findElement(By.xpath("//label/span[contains(text(),'DE0-Nano-SoC')]")).click();
+		Thread.sleep(3000);
+		// find all elements which has a className= "_2BULo" and put them in the data
+		List<WebElement> DE0_Nano_SoCBrandName = driver.findElements(By.className("_2BULo"));
+
+		String ActualDE0_Nano_SoCBrandName1 = DE0_Nano_SoCBrandName.get(0).getText();
+
+		// Print price of List Elements
+		List<WebElement> DE0_Nano_SoCPrice = driver.findElements(By.className("_23ArP"));
+		String ActualDE0_Nano_SoCPrice1 = DE0_Nano_SoCPrice.get(0).getText();
+
+		System.out.println("***********************************");
+		System.out.println("check by brand DE0-Nano-SoC");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualDE0_Nano_SoCBrandName1);
+		if (expectedDE0_Nano_SoCName1.equals(ActualDE0_Nano_SoCBrandName1)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedDE0_Nano_SoCName1);
+		System.out.println("Actual Result: " + ActualDE0_Nano_SoCBrandName1);
+
+		System.out.println("***********************************");
+		System.out.println("check by price DE0-Nano-SoC");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualDE0_Nano_SoCBrandName1);
+		if (expectedDE0_Nano_SoCPrice1.equals(ActualDE0_Nano_SoCPrice1)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedDE0_Nano_SoCPrice1);
+		System.out.println("Actual Result: " + ActualDE0_Nano_SoCPrice1);
+
+		driver.findElement(By.xpath("//label/span[contains(text(),'DE0-Nano-SoC')]")).click();
+		Thread.sleep(1000);
+
+		// *************************************************************DE0-Nano-SoC***********************************************************************
+		// *************************************************************Firefly***********************************************************************
+		// find Firefly Brand and click on it
+		String expectedFireflyName1 = "Firefly-ROC-RK3328-CC (Renegade)\r\n";
+		String expectedFireflyName2 = "Firefly-RK3399";
+		String expectedFireflyName3 = "Firefly-RK3128";
+		String expectedFireflyName4 = "Firefly-RK3288";
+		String expectedFireflyName5 = "Firefly-RK3288 Reload";
+		String expectedFireflyPrice1 = "$35.00";
+		String expectedFireflyPrice2 = "$149.00";
+		String expectedFireflyPrice3 = "$60.00";
+		String expectedFireflyPrice4 = "$119.00";
+		String expectedFireflyPrice5 = "$169.00";
+
+		driver.findElement(By.xpath("//label/span[contains(text(),'Firefly')]")).click();
+		Thread.sleep(3000);
+		// find all elements which has a className= "_2BULo" and put them in the data
+		List<WebElement> FireflyBrandName = driver.findElements(By.className("_2BULo"));
+
+		String ActualFireflyBrandName1 = FireflyBrandName.get(0).getText();
+		String ActualFireflyBrandName2 = FireflyBrandName.get(1).getText();
+		String ActualFireflyBrandName3 = FireflyBrandName.get(2).getText();
+		String ActualFireflyBrandName4 = FireflyBrandName.get(3).getText();
+		String ActualFireflyBrandName5 = FireflyBrandName.get(4).getText();
+
+		// Print number of List Elements
+		List<WebElement> FireflyPrice = driver.findElements(By.className("_23ArP"));
+		String ActualFireflyPrice1 = FireflyPrice.get(0).getText();
+		String ActualFireflyPrice2 = FireflyPrice.get(1).getText();
+		String ActualFireflyPrice3 = FireflyPrice.get(2).getText();
+		String ActualFireflyPrice4 = FireflyPrice.get(3).getText();
+		String ActualFireflyPrice5 = FireflyPrice.get(4).getText();
+
+		System.out.println("***********************************");
+		System.out.println("check by brand Firefly");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualFireflyBrandName1);
+		if (expectedFireflyName1.equals(ActualFireflyBrandName1)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedFireflyName1);
+		System.out.println("Actual Result: " + ActualFireflyBrandName1);
+
+		System.out.println("***********************************");
+		System.out.println("check by price Firefly");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualFireflyBrandName1);
+		if (expectedFireflyPrice1.equals(ActualFireflyPrice1)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedFireflyPrice1);
+		System.out.println("Actual Result: " + ActualFireflyPrice1);
+
+		System.out.println("***********************************");
+		System.out.println("check by brand Firefly");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualFireflyBrandName2);
+		if (expectedFireflyName2.equals(ActualFireflyBrandName2)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedFireflyName2);
+		System.out.println("Actual Result: " + ActualFireflyBrandName2);
+
+		System.out.println("***********************************");
+		System.out.println("check by price Firefly");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualFireflyBrandName2);
+		if (expectedFireflyPrice2.equals(ActualFireflyPrice2)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedFireflyPrice2);
+		System.out.println("Actual Result: " + ActualFireflyPrice2);
+
+		System.out.println("***********************************");
+		System.out.println("check by brand Firefly");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualFireflyBrandName3);
+		if (expectedFireflyName3.equals(ActualFireflyBrandName3)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedFireflyName3);
+		System.out.println("Actual Result: " + ActualFireflyBrandName3);
+
+		System.out.println("***********************************");
+		System.out.println("check by price Firefly");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualFireflyBrandName3);
+		if (expectedFireflyPrice3.equals(ActualFireflyPrice3)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedFireflyPrice3);
+		System.out.println("Actual Result: " + ActualFireflyPrice3);
+
+		System.out.println("***********************************");
+		System.out.println("check by brand Firefly");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualFireflyBrandName4);
+		if (expectedFireflyName4.equals(ActualFireflyBrandName4)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedFireflyName4);
+		System.out.println("Actual Result: " + ActualFireflyBrandName4);
+
+		System.out.println("***********************************");
+		System.out.println("check by price Firefly");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualFireflyBrandName4);
+		if (expectedFireflyPrice4.equals(ActualFireflyPrice4)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedFireflyPrice4);
+		System.out.println("Actual Result: " + ActualFireflyPrice4);
+
+		System.out.println("***********************************");
+		System.out.println("check by brand Firefly");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualFireflyBrandName5);
+		if (expectedFireflyName5.equals(ActualFireflyBrandName5)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedFireflyName5);
+		System.out.println("Actual Result: " + ActualFireflyBrandName5);
+
+		System.out.println("***********************************");
+		System.out.println("check by price Firefly");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualFireflyBrandName5);
+		if (expectedFireflyPrice5.equals(ActualFireflyPrice5)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedFireflyPrice5);
+		System.out.println("Actual Result: " + ActualFireflyPrice5);
+
+		driver.findElement(By.xpath("//label/span[contains(text(),'Firefly')]")).click();
+		Thread.sleep(1000);
+
+		// *************************************************************Firefly***********************************************************************
+		// *************************************************************HummingBoard***********************************************************************
+		// find HummingBoard Brand and click on it
+		String expectedHummingBoardName1 = "HummingBoard Pulse";
+		String expectedHummingBoardName2 = "HummingBoard-Edge";
+		String expectedHummingBoardName3 = "HummingBoard-Gate";
+		String expectedHummingBoardName4 = "HummingBoard-Pro";
+
+		String expectedHummingBoardPrice1 = "$160.00";
+		String expectedHummingBoardPrice2 = "$126.00";
+		String expectedHummingBoardPrice3 = "$96.00";
+		String expectedHummingBoardPrice4 = "$96.00";
+
+		driver.findElement(By.xpath("//label/span[contains(text(),'HummingBoard')]")).click();
+		Thread.sleep(3000);
+		// find all elements which has a className= "_2BULo" and put them in the data
+		List<WebElement> HummingBoardBrandName = driver.findElements(By.className("_2BULo"));
+
+		String ActualHummingBoardBrandName1 = HummingBoardBrandName.get(0).getText();
+		String ActualHummingBoardBrandName2 = HummingBoardBrandName.get(1).getText();
+		String ActualHummingBoardBrandName3 = HummingBoardBrandName.get(2).getText();
+		String ActualHummingBoardBrandName4 = HummingBoardBrandName.get(3).getText();
+
+		// Print number of List Elements
+		List<WebElement> HummingBoardPrice = driver.findElements(By.className("_23ArP"));
+		String ActualHummingBoardPrice1 = HummingBoardPrice.get(0).getText();
+		String ActualHummingBoardPrice2 = HummingBoardPrice.get(1).getText();
+		String ActualHummingBoardPrice3 = HummingBoardPrice.get(2).getText();
+		String ActualHummingBoardPrice4 = HummingBoardPrice.get(3).getText();
+
+		System.out.println("***********************************");
+		System.out.println("check by brand HummingBoard");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualHummingBoardBrandName1);
+		if (expectedHummingBoardName1.equals(ActualHummingBoardBrandName1)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedHummingBoardName1);
+		System.out.println("Actual Result: " + ActualHummingBoardBrandName1);
+
+		System.out.println("***********************************");
+		System.out.println("check by price HummingBoard");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualHummingBoardBrandName1);
+		if (expectedHummingBoardPrice1.equals(ActualHummingBoardPrice1)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedHummingBoardPrice1);
+		System.out.println("Actual Result: " + ActualHummingBoardPrice1);
+
+		System.out.println("***********************************");
+		System.out.println("check by brand HummingBoard");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualHummingBoardBrandName2);
+		if (expectedHummingBoardName2.equals(ActualHummingBoardBrandName2)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedHummingBoardName2);
+		System.out.println("Actual Result: " + ActualHummingBoardBrandName2);
+
+		System.out.println("***********************************");
+		System.out.println("check by price HummingBoard");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualHummingBoardBrandName2);
+		if (expectedHummingBoardPrice2.equals(ActualHummingBoardPrice2)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedHummingBoardPrice2);
+		System.out.println("Actual Result: " + ActualHummingBoardPrice2);
+
+		System.out.println("***********************************");
+		System.out.println("check by brand HummingBoard");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualHummingBoardBrandName3);
+		if (expectedHummingBoardName3.equals(ActualHummingBoardBrandName3)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedHummingBoardName3);
+		System.out.println("Actual Result: " + ActualHummingBoardBrandName3);
+
+		System.out.println("***********************************");
+		System.out.println("check by price HummingBoard");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualHummingBoardBrandName3);
+		if (expectedHummingBoardPrice3.equals(ActualHummingBoardPrice3)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedHummingBoardPrice3);
+		System.out.println("Actual Result: " + ActualHummingBoardPrice3);
+
+		System.out.println("***********************************");
+		System.out.println("check by brand HummingBoard");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualHummingBoardBrandName4);
+		if (expectedHummingBoardName4.equals(ActualHummingBoardBrandName4)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedHummingBoardName4);
+		System.out.println("Actual Result: " + ActualHummingBoardBrandName4);
+
+		System.out.println("***********************************");
+		System.out.println("check by price HummingBoard");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualHummingBoardBrandName4);
+		if (expectedHummingBoardPrice4.equals(ActualHummingBoardPrice4)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedHummingBoardPrice4);
+		System.out.println("Actual Result: " + ActualHummingBoardPrice4);
+
+		driver.findElement(By.xpath("//label/span[contains(text(),'HummingBoard')]")).click();
+		Thread.sleep(1000);
+
+		// *************************************************************HummingBoard***********************************************************************
+		// *************************************************************Khadas***********************************************************************
+		// find Khadas Brand and click on it
+		String expectedKhadasName1 = "Khadas Vim Pro";
+		String expectedKhadasName2 = "Khadas Vim2";
+
+		String expectedKhadasPrice1 = "$60.00";
+		String expectedKhadasPrice2 = "$90.00";
+
+		driver.findElement(By.xpath("//label/span[contains(text(),'Khadas')]")).click();
+		Thread.sleep(3000);
+		// find all elements which has a className= "_2BULo" and put them in the data
+		List<WebElement> KhadasBrandName = driver.findElements(By.className("_2BULo"));
+
+		String ActualKhadasBrandName1 = KhadasBrandName.get(0).getText();
+		String ActualKhadasBrandName2 = KhadasBrandName.get(1).getText();
+
+		// Print number of List Elements
+		List<WebElement> KhadasPrice = driver.findElements(By.className("_23ArP"));
+		String ActualKhadasPrice1 = KhadasPrice.get(0).getText();
+		String ActualKhadasPrice2 = KhadasPrice.get(1).getText();
+
+		System.out.println("***********************************");
+		System.out.println("check by brand Khadas");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualKhadasBrandName1);
+		if (expectedKhadasName1.equals(ActualKhadasBrandName1)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedKhadasName1);
+		System.out.println("Actual Result: " + ActualKhadasBrandName1);
+
+		System.out.println("***********************************");
+		System.out.println("check by price Khadas");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualKhadasBrandName1);
+		if (expectedKhadasPrice1.equals(ActualKhadasPrice1)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedKhadasPrice1);
+		System.out.println("Actual Result: " + ActualKhadasPrice1);
+
+		System.out.println("***********************************");
+		System.out.println("check by brand Khadas");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualKhadasBrandName2);
+		if (expectedKhadasName2.equals(ActualKhadasBrandName2)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedKhadasName2);
+		System.out.println("Actual Result: " + ActualKhadasBrandName2);
+
+		System.out.println("***********************************");
+		System.out.println("check by price Khadas");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualKhadasBrandName2);
+		if (expectedKhadasPrice2.equals(ActualKhadasPrice2)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedKhadasPrice2);
+		System.out.println("Actual Result: " + ActualKhadasPrice2);
+
+		driver.findElement(By.xpath("//label/span[contains(text(),'Khadas')]")).click();
+		Thread.sleep(1000);
+
+		// *************************************************************Khadas***********************************************************************
+		// *************************************************************LeMaker***********************************************************************
+		// find LeMaker Brand and click on it
+		String expectedLeMakerName1 = "LeMaker 8Guitar";
+		String expectedLeMakerPrice1 = "$69.00";
+
+		driver.findElement(By.xpath("//label/span[contains(text(),'LeMaker')]")).click();
+		Thread.sleep(3000);
+		// find all elements which has a className= "_2BULo" and put them in the data
+		List<WebElement> LeMakerBrandName = driver.findElements(By.className("_2BULo"));
+
+		String ActualLeMakerBrandName1 = LeMakerBrandName.get(0).getText();
+
+		// Print price of List Elements
+		List<WebElement> LeMakerPrice = driver.findElements(By.className("_23ArP"));
+		String ActualLeMakerPrice1 = LeMakerPrice.get(0).getText();
+
+		System.out.println("***********************************");
+		System.out.println("check by brand LeMaker");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualLeMakerBrandName1);
+		if (expectedLeMakerName1.equals(ActualLeMakerBrandName1)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedLeMakerName1);
+		System.out.println("Actual Result: " + ActualLeMakerBrandName1);
+
+		System.out.println("***********************************");
+		System.out.println("check by price LeMaker");
+		System.out.println("***********************************");
+		System.out.println("Item name: " + ActualLeMakerBrandName1);
+		if (expectedLeMakerPrice1.equals(ActualLeMakerPrice1)) {
+			System.out.println("PASS");
+		} else {
+			System.out.println("FAIL");
+		}
+		System.out.println("Expected Result: " + expectedLeMakerPrice1);
+		System.out.println("Actual Result: " + ActualLeMakerPrice1);
+		Thread.sleep(1000);
+
+		driver.findElement(By.xpath("//label/span[contains(text(),'LeMaker')]")).click();
+
 		Thread.sleep(2000);
+
+		// *************************************************************LeMaker***********************************************************************
+
+// ==========================================================================TANYA10BRANDS==================================================================
 
 		driver.quit();
 
 	}
+
 }
