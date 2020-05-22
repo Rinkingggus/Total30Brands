@@ -2648,14 +2648,15 @@ public class ex99Testing5Brands2 {
 		driver.findElement(By.xpath(
 				"//*[@id=\"TPASection_jcfu7llo\"]/div/div/div/aside/section/ul/li[3]/div/div/div/ul/li[16]/label/span"))
 				.click();
-		Thread.sleep(4500);
+		Thread.sleep(2000);
 //==========================================================================TANYA10BRANDS==================================================================
 
 		// *************************************************************DragonBoard***********************************************************************
 		// find DragonBoard Brand and click on it
 		String expectedDragonBoardName1 = "DragonBoard 820C";
 		String expectedDragonBoardPrice1 = "$199.00";
-
+		
+		Thread.sleep(2000);
 		driver.findElement(By.xpath("//label/span[contains(text(),'DragonBoard')]")).click();
 		Thread.sleep(3000);
 		System.out.println("Checkbox Dragonboard Brand");
@@ -3423,9 +3424,10 @@ public class ex99Testing5Brands2 {
 		Thread.sleep(2000);
 
 		// *************************************************************LeMaker***********************************************************************
-
-// ==========================================================================TANYA10BRANDS==================================================================
-
+		
+		driver.findElement(By.xpath("//label/span[contains(text(),'LeMaker')]")).click();
+		Thread.sleep(3000);
+		
 		driver.quit();
 
 	}

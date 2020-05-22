@@ -359,6 +359,254 @@ System.out.println("FAIL");
 System.out.println("Expected Result: " + expectedBanana_PiPrice9);
 System.out.println("Actual Result: " + ActualBanana_PiPrice9);
 //**********************************************************************BANANA***************************************************************
+driver.findElement(By.xpath("//label/span[contains(text(),'Banana Pi')]")).click();
+Thread.sleep(3000);
+//**********************************************************************BEAGLEBONE***************************************************************
+
+String expectedBeagleBoneName1 = "PocketBeagle";
+String expectedBeagleBoneName2 = "BeagleBone Green";
+String expectedBeagleBoneName3 = "BeagleBone Green Wireless";
+String expectedBeagleBoneName4 = "BeagleBone Blue";
+String expectedBeagleBoneName5 = "BeagleBone Black Wireless";
+String expectedBeagleBoneName6 = "BeagleBone Black, Rev C";
+
+String expectedBeagleBonePrice1 = "$25.00";
+String expectedBeagleBonePrice2 = "$44.00";
+String expectedBeagleBonePrice3 = "$52.90";
+String expectedBeagleBonePrice4 = "$80.00";
+String expectedBeagleBonePrice5 = "$68.75";
+String expectedBeagleBonePrice6 = "$55.00";
+
+
+// find BeagleBone Brand and click on it
+driver.findElement(By.xpath("//label/span[contains(text(),'BeagleBone')]")).click();
+ Thread.sleep(3500);
+// find all elements which has a className= "_2BULo" and put them in the data
+List<WebElement> BeagleBoneBrandName = driver.findElements(By.className("_2BULo"));
+// create new Variable
+Thread.sleep(3000);
+int numberOFBeagleBoneBrandName = BeagleBoneBrandName.size();
+String ActualBeagleBoneBrandName1 = BeagleBoneBrandName.get(0).getText();
+String ActualBeagleBoneBrandName2 = BeagleBoneBrandName.get(1).getText();
+String ActualBeagleBoneBrandName3 = BeagleBoneBrandName.get(2).getText();
+String ActualBeagleBoneBrandName4 = BeagleBoneBrandName.get(3).getText();
+String ActualBeagleBoneBrandName5 = BeagleBoneBrandName.get(4).getText();
+String ActualBeagleBoneBrandName6 = BeagleBoneBrandName.get(5).getText();
+
+// Print number of List Elements
+List<WebElement> BeagleBonePrice = driver.findElements(By.className("_23ArP"));
+int numberOFBeagleBonePrice = BeagleBonePrice.size();
+String ActualBeagleBonePrice1 = BeagleBonePrice.get(0).getText();
+String ActualBeagleBonePrice2 = BeagleBonePrice.get(1).getText();
+String ActualBeagleBonePrice3 = BeagleBonePrice.get(2).getText();
+String ActualBeagleBonePrice4 = BeagleBonePrice.get(3).getText();
+String ActualBeagleBonePrice5 = BeagleBonePrice.get(4).getText();
+String ActualBeagleBonePrice6 = BeagleBonePrice.get(5).getText();
+
+System.out.println("check by brand");
+System.out.println("***********************************");
+
+if (expectedBeagleBoneName1.equals(ActualBeagleBoneBrandName1)) {
+System.out.println("PASS");
+} else {
+System.out.println("FAIL");
+}
+System.out.println("Expected Result: " + expectedBeagleBoneName1);
+System.out.println("Actual Result: " + ActualBeagleBoneBrandName1);
+
+if (expectedBeagleBoneName2.equals(ActualBeagleBoneBrandName2)) {
+System.out.println("PASS");
+} else {
+System.out.println("Fail");
+}
+System.out.println("Expected Result: " + expectedBeagleBoneName2);
+System.out.println("Actual Result: " + ActualBeagleBoneBrandName2);
+
+if (expectedBeagleBoneName3.equals(ActualBeagleBoneBrandName3)) {
+System.out.println("PASS");
+} else {
+System.out.println("Fail");
+}
+System.out.println("Expected Result: " + expectedBeagleBoneName3);
+System.out.println("Actual Result: " + ActualBeagleBoneBrandName3);
+
+if (expectedBeagleBoneName4.equals(ActualBeagleBoneBrandName4)) {
+System.out.println("PASS");
+} else {
+System.out.println("FAIL");
+}
+System.out.println("Expected Result: " + expectedBeagleBoneName4);
+System.out.println("Actual Result: " + ActualBeagleBoneBrandName4);
+
+if (expectedBeagleBoneName5.equals(ActualBeagleBoneBrandName5)) {
+System.out.println("PASS");
+} else {
+System.out.println("FAIL");
+}
+System.out.println("Expected Result: " + expectedBeagleBoneName5);
+System.out.println("Actual Result: " + ActualBeagleBoneBrandName5);
+
+if (expectedBeagleBoneName6.equals(ActualBeagleBoneBrandName6)) {
+System.out.println("PASS");
+} else {
+System.out.println("FAIL");
+}
+System.out.println("Expected Result: " + expectedBeagleBoneName6);
+System.out.println("Actual Result: " + ActualBeagleBoneBrandName6);
+
+System.out.println("check by price");
+System.out.println("***********************************");
+
+if (expectedBeagleBonePrice1.equals(ActualBeagleBonePrice1)) {
+System.out.println("PASS");
+} else {
+System.out.println("FAIL");
+}
+System.out.println("Expected Result: " + expectedBeagleBonePrice1);
+System.out.println("Actual Result: " + ActualBeagleBonePrice1);
+
+if (expectedBeagleBonePrice2.equals(ActualBeagleBonePrice2)) {
+System.out.println("PASS");
+} else {
+System.out.println("Fail");
+}
+System.out.println("Expected Result: " + expectedBeagleBonePrice2);
+System.out.println("Actual Result: " + ActualBeagleBonePrice2);
+
+if (expectedBeagleBonePrice3.equals(ActualBeagleBonePrice3)) {
+System.out.println("PASS");
+} else {
+System.out.println("Fail");
+}
+System.out.println("Expected Result: " + expectedBeagleBonePrice3);
+System.out.println("Actual Result: " + ActualBeagleBonePrice3);
+
+if (expectedBeagleBonePrice4.equals(ActualBeagleBonePrice4)) {
+System.out.println("PASS");
+} else {
+System.out.println("FAIL");
+}
+System.out.println("Expected Result: " + expectedBeagleBonePrice4);
+System.out.println("Actual Result: " + ActualBeagleBonePrice4);
+
+if (expectedBeagleBonePrice5.equals(ActualBeagleBonePrice5)) {
+System.out.println("PASS");
+} else {
+System.out.println("FAIL");
+}
+System.out.println("Expected Result: " + expectedBeagleBonePrice5);
+System.out.println("Actual Result: " + ActualBeagleBonePrice5);
+
+
+if (expectedBeagleBonePrice6.equals(ActualBeagleBonePrice6)) {
+System.out.println("PASS");
+} else {
+System.out.println("FAIL");
+}
+System.out.println("Expected Result: " + expectedBeagleBonePrice6);
+System.out.println("Actual Result: " + ActualBeagleBonePrice6);
+
+//**********************************************************************BEAGLEBONE***************************************************************
+
+//find BeagleBone Brand and click on it
+driver.findElement(By.xpath("//label/span[contains(text(),'BeagleBone')]")).click();
+Thread.sleep(3500);
+
+//**********************************************************************Bubblegum***************************************************************
+String expectedBubblegumName1 = "Bubblegum-96";
+String expectedBubblegumPrice1 = "$71.20";
+// Thread.sleep(5000);
+
+
+//find Element [Bubblegum] by xpath and click on it
+Thread.sleep(3000);
+driver.findElement(By.xpath("//*[@id=\"TPASection_jcfu7llo\"]/div/div/div/aside/section/ul/li[3]/div/div/div/ul/li[5]/label/span")).click();
+Thread.sleep(4000);
+
+List<WebElement> BubblegumBrandName = driver.findElements(By.className("_2BULo"));
+//create new Variable
+int numberOFBubblegumBrandName = BubblegumBrandName.size();
+System.out.println(numberOFBubblegumBrandName);
+String ActualBubblegumBrandName1 = BubblegumBrandName.get(0).getText();
+System.out.println(ActualBubblegumBrandName1);
+
+//Print number of List Elements
+List<WebElement> BubblegumPrice = driver.findElements(By.className("_23ArP"));
+int numberOFBubblegumPrice = BubblegumPrice.size();
+String ActualBubblegumPrice1 = BubblegumPrice.get(0).getText();
+
+System.out.println("check by brand");
+System.out.println("***********************************");
+
+if (expectedBubblegumName1.equals(ActualBubblegumBrandName1)) {
+System.out.println("PASS");
+} else {
+System.out.println("FAIL");
+}
+System.out.println("Expected Result: " + expectedBubblegumName1);
+System.out.println("Actual Result: " + ActualBubblegumBrandName1);
+
+System.out.println("check by price");
+System.out.println("***********************************");
+
+if (expectedBubblegumPrice1.equals(ActualBubblegumPrice1)) {
+System.out.println("PASS");
+} else {
+System.out.println("FAIL");
+}
+System.out.println("Expected Result: " + expectedBubblegumPrice1);
+System.out.println("Actual Result: " + ActualBubblegumPrice1);
+
+
+//**********************************************************************Bubblegum***************************************************************
+driver.findElement(By.xpath("//*[@id=\"TPASection_jcfu7llo\"]/div/div/div/aside/section/ul/li[3]/div/div/div/ul/li[5]/label/span")).click();
+Thread.sleep(4000);
+//**********************************************************************DUINO***************************************************************
+String expectedDuino86Name1 = "86Duino Zero";
+String expectedDuino86Price1 = "$39.00";
+Thread.sleep(3000);
+
+//find Element [86Duino] by xpath and click on it
+Thread.sleep(3000);
+driver.findElement(By.xpath("//*[@id=\"TPASection_jcfu7llo\"]/div/div/div/aside/section/ul/li[3]/div/div/div/ul/li[1]/label/span")).click();
+Thread.sleep(3000);
+//driver.findElement(By.xpath("//label/span[contains(text(),'86Duino')]")).click();
+//find all elements which has a className= "_2BULo" and put them in the data
+List<WebElement> Duino86BrandName = driver.findElements(By.className("_2BULo"));
+//create new Variable
+int numberOFDuino86BrandName = Duino86BrandName.size();
+String ActualDuino86BrandName1 = Duino86BrandName.get(0).getText();
+
+
+//Print number of List Elements
+List<WebElement> Duino86Price = driver.findElements(By.className("_23ArP"));
+int numberOFDuino86Price = Duino86Price.size();
+String ActualDuino86Price1 = Duino86Price.get(0).getText();
+
+System.out.println("check by brand");
+System.out.println("***********************************");
+
+
+
+if (expectedDuino86Name1.equals(ActualDuino86BrandName1)) {
+System.out.println("PASS");
+} else {
+System.out.println("FAIL");
+}
+System.out.println("Expected Result: " + expectedDuino86Name1);
+System.out.println("Actual Result: " + ActualDuino86BrandName1);
+
+
+System.out.println("check by price");
+System.out.println("***********************************");
+
+if (expectedDuino86Price1.equals(ActualDuino86Price1)) {
+System.out.println("PASS");
+} else {
+System.out.println("FAIL");
+}
+System.out.println("Expected Result: " + expectedDuino86Price1);
+System.out.println("Actual Result: " + ActualDuino86Price1);
 
 
 driver.quit();
